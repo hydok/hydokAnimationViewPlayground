@@ -14,8 +14,8 @@
 
 
 ```code
-       floatingButton
-            .setIcon(R.drawable.icon)
+        floatingButton
+            .setIcon(image = R.drawable.icon, widthDp = 40)
             .setTitle(title = "안녕하세요!!!", color = R.color.white, size = 18f)
             .setColor(R.color.blue)
             .setExpandDuration(300)

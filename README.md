@@ -33,7 +33,6 @@ attribute programmatically
 - `setIcon()`
 - `setTitle()`
 - `setColor()`
-- `clearView()`
 - `setExpandDuration()`
 - `setExpanded()`
 - `setCollapsed()`

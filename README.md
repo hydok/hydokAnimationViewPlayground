@@ -6,20 +6,35 @@
 
 ## How to use
 ```code
-    
+        <com.hydok.expandablefloatingbutton.ExpandableFloatingButton
+        android:id="@+id/floatingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 ```
 
 
 ```code
-       
+       floatingButton
+            .setIcon(R.drawable.icon)
+            .setTitle(title = "안녕하세요!!!", color = R.color.white, size = 18f)
+            .setColor(R.color.blue)
+            .setExpandDuration(300)
+
+        //expand Event
+        floatingButton.setExpanded() 
+
+        //collapsed Event
+        floatingButton.setCollapsed()
 ```
 
 
 ## Function
 attribute programmatically
-- `setDuration()`
-- `launchAnimation()`
-- `inView()`
+- `setIcon()`
+- `setTitle()`
+- `setColor()`
 - `clearView()`
-- `doOnEnd()`
+- `setExpandDuration()`
+- `setExpanded()`
+- `setCollapsed()`
 

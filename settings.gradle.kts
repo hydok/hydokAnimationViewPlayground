@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 rootProject.name = "ExpandableFloatingButton"
 include(":app")
 include(":expandablefloatingbutton")
+include(":overlapCardView")

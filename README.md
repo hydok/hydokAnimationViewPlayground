@@ -75,11 +75,13 @@ attribute programmatically
 
 
         //init
-        overlapView.setCard(views).setTopMargin(60,40)
+        overlapView.setCard(views)
+                   .setTopMargin(60,40)
 
         //change state
         btn.setOnClickListener {
             binding.overlapView.setStateChange()
+        }
 ```
 
 
